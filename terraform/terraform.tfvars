@@ -20,20 +20,8 @@ subnets = {
   }
 }
 
-tg = {
-  name                = "vote-tg"
-  port                = "80"
-  protocol            = "HTTP"
-  path                = "/health-check-path"
-  interval            = 30
-  timeout             = 5
-  healthy_threshold   = 5
-  unhealthy_threshold = 3
-}
-
 sg = {
     name        = "security-group"
-
 }
 
 instances = {
