@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "guis3bucketforvotingapp" ## think of a unique name for the s3 bucket
+    bucket = "guis3bucketvotingapp" ## think of a unique name for the s3 bucket
     key    = "terraform/statefile.tfstate"
     region = "eu-north-1"
 
