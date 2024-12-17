@@ -21,9 +21,6 @@ variable "vpc_cidr_block" {
 variable "subnets" {
   type = any
 }
-variable "tg" {
-  type = any
-}
 variable "sg" {
   type = any
 }
